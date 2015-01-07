@@ -755,13 +755,7 @@
 				<height>75</height>
 				<texture border="0,6,0,6">HomeBack.png</texture>
 			</control>
-			<control type="image">
-				<left>0</left>
-				<top>5</top>
-				<width>1280</width>
-				<height>6</height>
-				<texture>HomeOverlay1.png</texture>
-			</control>
+
 			<control type="fixedlist" id="9000">
 				<left>-110</left>
 				<top>5</top>
@@ -778,20 +772,6 @@
 				<movement>1</movement>
 				<orientation>Horizontal</orientation>
 				<itemlayout height="60" width="300">
-					<control type="image">
-						<left>0</left>
-						<top>4</top>
-						<width>1</width>
-						<height>52</height>
-						<texture>HomeSeperator.png</texture>
-					</control>
-					<control type="image">
-						<left>299</left>
-						<top>4</top>
-						<width>1</width>
-						<height>52</height>
-						<texture>HomeSeperator.png</texture>
-					</control>
 					<control type="label">
 						<left>5</left>
 						<top>0</top>
@@ -805,20 +785,6 @@
 					</control>
 				</itemlayout>
 				<focusedlayout height="60" width="300">
-					<control type="image">
-						<left>0</left>
-						<top>4</top>
-						<width>1</width>
-						<height>52</height>
-						<texture>HomeSeperator.png</texture>
-					</control>
-					<control type="image">
-						<left>299</left>
-						<top>4</top>
-						<width>1</width>
-						<height>52</height>
-						<texture>HomeSeperator.png</texture>
-					</control>
 					<control type="label">
 						<left>5</left>
 						<top>0</top>

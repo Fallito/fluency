@@ -60,7 +60,7 @@
 			<height>720</height>
 			<visible>Player.HasVideo + !Skin.HasSetting(ShowBackgroundVideo) + !Window.IsVisible(TVChannels) + !Window.IsVisible(RadioChannels)</visible>
 		</control>
-		<control type="image">
+		<!--<control type="image">
 			<left>0</left>
 			<top>-40</top>
 			<width>1280</width>
@@ -68,7 +68,7 @@
 			<texture flipy="true" border="1">HomeNowPlayingBack.png</texture>
 			<visible>[Player.HasVideo + !Skin.HasSetting(ShowBackgroundVideo)] | [Player.HasAudio + ![Skin.HasSetting(ShowBackgroundVis) | SubString(Window(videolibrary).Property(TvTunesIsAlive),True)]] | [!Skin.HasSetting(HideBackGroundFanart) + !IsEmpty(ListItem.Property(Fanart_Image))]</visible>
 			<include>VisibleFadeEffect</include>
-		</control>
+		</control>-->
 	</include>
 	<include name="ContentPanelBackgrounds">
 		<control type="image">
