@@ -190,11 +190,6 @@
 			<label>Reload skin</label>
 			<onclick>ReloadSkin()</onclick>
 		</control>
-		<control type="button" id="90122">
-			<include>ButtonHomeSubCommonValues</include>
-			<label>5</label>
-			<onclick>ActivateWindow(Settings)</onclick>
-		</control>
 		<control type="button" id="90125">
 			<include>ButtonHomeSubCommonValues</include>
 			<label>130</label>
