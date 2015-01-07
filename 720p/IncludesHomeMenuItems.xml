@@ -242,11 +242,6 @@
 			<height>35</height>
 			<texture border="0,0,0,3" flipx="true">HomeSubEnd.png</texture>
 		</control>
-		<control type="button" id="90143">
-			<include>ButtonHomeSubCommonValues</include>
-			<label>19019</label>
-			<onclick>ActivateWindow(TVChannels)</onclick>
-		</control>
 		<control type="button" id="90144">
 			<include>ButtonHomeSubCommonValues</include>
 			<label>19069</label>
@@ -256,11 +251,6 @@
 			<include>ButtonHomeSubCommonValues</include>
 			<label>19163</label>
 			<onclick>ActivateWindow(TVRecordings)</onclick>
-		</control>
-		<control type="button" id="90146">
-			<include>ButtonHomeSubCommonValues</include>
-			<label>19040</label>
-			<onclick>ActivateWindow(TVTimers)</onclick>
 		</control>
 		<control type="button" id="90147">
 			<include>ButtonHomeSubCommonValues</include>
