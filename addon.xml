@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="skin.fluency"
+  version="0.0.1"
+  name="Fluency"
+  provider-name="Jezz_X, Team Kodi, Vilsepi">
+  <requires>
+    <import addon="xbmc.gui" version="5.3.0"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    defaultthemename="textures.xbt"
+    debugging="false"
+    effectslowdown="0.75">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">A fork of Kodi's default skin Confluence, originally by Jezz_X. This fork mainly removes UI elements I regard as clutter.</summary>
+    <description lang="en">Fluency is a modified version of Confluence. Rather than going overboard with massive changes, it tries to maintain the full compatibility with everything while removing excess clutter from the UI. Simplicity and focus on content and function is the name of the game.</description>
+    <disclaimer lang="en">No support guaranteed, use Confluence if you have problems.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
